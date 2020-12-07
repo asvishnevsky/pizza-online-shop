@@ -1,0 +1,102 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+    border: 0 solid #e2e8f0;
+}
+
+.pizzas {
+    width: 80%;
+    margin-left: 10%;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+}
+
+.pizza {
+
+    margin-bottom: 2rem;
+}
+
+.pizza__vertical {
+    display: block;
+}
+
+.pizza__horizontal {
+    margin: 5% 0 10% 10%;
+    /*margin-top: 1rem;*/
+    /*font-size: .875rem;*/
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+}
+
+.pizza__vertical__image {
+    transition-duration: .5s;
+    --transform-translate-x: 0;
+    --transform-translate-y: 0;
+    --transform-rotate: 0;
+    --transform-skew-x: 0;
+    --transform-skew-y: 0;
+    --transform-scale-x: 1;
+    --transform-scale-y: 1;
+    transform: translateX(var(--transform-translate-x))
+        translateY(var(--transform-translate-y)) rotate(var(--transform-rotate))
+        skewX(var(--transform-skew-x)) skewY(var(--transform-skew-y))
+        scaleX(var(--transform-scale-x)) scaleY(var(--transform-scale-y));
+    position: relative;
+    margin-bottom: .5rem;
+    /*margin: 0;*/
+}
+
+.pizza__vertical__image_img {
+    /*width: 100%;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    /*position: absolute;*/
+    /*height: 100%;*/
+    /*max-width: 100%;*/
+    /*display: block;*/
+    /*border-style: solid;*/
+}
+
+.pizza__vertical__title {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0;
+}
+
+.pizza__horizontal__description {
+    --text-opacity: 1;
+    color: rgba(113,128,150,var(--text-opacity));
+    margin-top: .5rem;
+    margin-left: 3rem;
+    margin-bottom: .5rem;
+    font-size: .875rem;
+    font-weight: bold;
+}
+
+.pizza__horizontal__description__buttons {
+    margin-right: 3rem;
+}
+
+.pizza__horizontal__description__buttons_button {
+    width: 144px;
+    --text-opacity: 1;
+    color: rgba(237,137,54,var(--text-opacity));
+    text-align: center;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: .875rem;
+    font-weight: 700;
+    border-width: 1px;
+    border-radius: .5rem;
+    --border-opacity: 1;
+    border-color: rgba(237,137,54,var(--border-opacity));
+    cursor: pointer;
+    background-color: transparent;
+    -webkit-appearance: button;
+    overflow: visible;
+}

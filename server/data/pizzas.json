@@ -1,0 +1,67 @@
+{
+    "items": [
+     {
+       "id": "peperoni",
+       "title": "Peperoni",
+       "description": "Qui sequi provident reiciendis aut asperiores",
+       "cost": "7.33 USD",
+       "imgpath": "img/Peperoni.jpg"
+     },
+     {
+       "id": "cheese",
+       "title": "Cheese",
+       "description": "Illo ad provident a at quia beatae id",
+       "cost": "7.47 USD",
+       "imgpath": "img/Cheese.jpg"
+     },
+     {
+       "id": "margarita",
+       "title": "Margarita",
+       "description": "Iste sed molestiae voluptate officiis",
+       "cost": "3.32 USD",
+       "imgpath": "img/Margarita.jpg"
+     },
+     {
+       "id": "hawaiian",
+       "title": "Hawaiian",
+       "description": "Repudiandae natus inventore voluptatem sed sed animi laudantium",
+       "cost": "1.49 USD",
+       "imgpath": "img/Hawaiian.jpg"
+     },
+     {
+       "id": "double_peperoni",
+       "title": "Double Peperoni",
+       "description": "Suscipit aut voluptatem nam non voluptatibus nihil",
+       "cost": "3.79 USD",
+       "imgpath": "img/Double Peperoni.jpg"
+     },
+     {
+       "id": "meat_lovers",
+       "title": "Meat Lover's",
+       "description": "Consectetur consequatur et omnis harum",
+       "cost": "2.15 USD",
+       "imgpath": "img/Meat Lover's.jpg"
+     },
+     {
+       "id": "italian",
+       "title": "Italian",
+       "description": "Perspiciatis quae voluptatem sit id voluptatibus sunt",
+       "cost": "4.93 USD",
+       "imgpath": "img/Italian.jpg"
+     },
+     {
+       "id": "cheese",
+       "title": "Four Cheese",
+       "description": "Tenetur maxime temporibus ipsum laboriosam veniam",
+       "cost": "6.53 USD",
+       "imgpath": "img/Four Cheese.jpg"
+     },
+     {
+       "id": "mexican",
+       "title": "Mexican",
+       "description": "Esse nostrum quia et unde quo pariatur",
+       "cost": "5.85 USD",
+       "imgpath": "img/Mexican.jpg"
+     }
+   ]
+ }

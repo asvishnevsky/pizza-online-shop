@@ -1,0 +1,181 @@
+.registration {
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    width: 100%;
+    text-align: left;
+}
+
+.registration__title {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    font-size: 2.25rem;
+}
+
+.registration_form__name,
+.registration_form__email, .registration_form__password {
+    width: 100%;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.registration_form__name_label,
+.registration_form__email_label, .registration_form__password_label {
+    letter-spacing: .025em;
+    text-transform: uppercase;
+    margin-bottom: .5rem;
+    font-size: .75rem;
+    font-weight: 700;
+    display: block;
+}
+
+.registration_form__name_input,
+.registration_form__email_input, .registration_form__password_input {
+    transition-duration: .15s;
+    transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+    width: 100%;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    display: block;
+    border-width: 1px;
+    border-radius: .5rem;
+    appearance: none;
+    overflow: visible;
+    font-size: 100%;
+}
+
+.registration_form__options {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+    display: flex;
+}
+
+.registration_form__options__remember {
+    font-weight: 700;
+    align-items: center;
+    display: inline-flex;
+}
+
+.registration_form__options__remember__checkbox {
+    --text-opacity: 1;
+    color: rgba(113,128,150,var(--text-opacity));
+    box-sizing: border-box;
+    padding: 0;
+    overflow: visible;
+    font-size: 100%;
+}
+
+.registration_form__buttons__create-account {
+    margin-right: .5rem;
+    width: 100%;
+    text-align: center;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-bottom: .5rem;
+    font-size: .875rem;
+    font-weight: 700;
+    display: block;
+    border-width: 1px;
+    border-radius: .5rem;
+    color: black;
+
+    border-bottom-style: solid;
+    border-image-repeat: stretch;
+    border-image-source: none;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    line-height: 21px;
+    text-decoration-line: none;
+    text-decoration-style: solid;
+}
+
+.registration_form__buttons__create-account:hover {
+    --text-opacity: 1;
+    color: #dd6b20;
+    color: rgba(221,107,32,var(--text-opacity));
+    --border-opacity: 1;
+    border-color: #dd6b20;
+    border-color: rgba(221,107,32,var(--border-opacity));
+}
+
+.registration_form__buttons__sign-in {
+    margin-left: .5rem;
+    width: 100%;
+    --text-opacity: 1;
+    color: rgba(255,255,255,var(--text-opacity));
+    text-align: center;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    opacity: .5;
+    margin-bottom: .5rem;
+    font-size: .875rem;
+    font-weight: 700;
+    display: block;
+    cursor: not-allowed;
+    border-radius: .5rem;
+    --bg-opacity: 1;
+    background-color: rgba(237,137,54,var(--bg-opacity));
+    -webkit-appearance: button;
+    background-image: none;
+    text-transform: none;
+    overflow: visible;
+}
+
+.registration_form__buttons {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    display: flex;
+}
+
+.registration_form__options__remember_span {
+    --text-opacity: 1;
+    color: rgba(113,128,150,var(--text-opacity));
+    margin-left: .5rem;
+    line-height: 1.375;
+    font-size: .875rem;
+    font-weight: 700;
+}
+
+.registration_form__options__forgot {
+    --text-opacity: 1;
+    color: rgba(237,137,54,var(--text-opacity));
+    font-weight: 700;
+    display: block;
+}
+
+.registration_form__options__forgot_button {
+    letter-spacing: -.05em;
+    --text-opacity: 1;
+    color: rgba(0,0,0,var(--text-opacity));
+    cursor: pointer;
+    border-bottom-width: 2px;
+    --border-opacity: 1;
+    border-color: rgba(254,235,200,var(--border-opacity));
+    padding: 0;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: button;
+    text-transform: none;
+    overflow: visible;
+}
+
+.registration_form__options__remember_span__link {
+    color: black;
+    margin-left: 0.25rem;
+}

@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "firstName": "John",
+        "lastName": "Doe",
+        "email": "johndoe@email.com",
+        "password": "pmWkWSBCL51Bfkhn79xPuKBKHz//H6B+mY6G9/eieuM="
+    },
+    {
+        "id": 2,
+        "firstName": "User",
+        "lastName": "User",
+        "email": "email@email.com",
+        "password": "pmWkWSBCL51Bfkhn79xPuKBKHz//H6B+mY6G9/eieuM="
+    }
+]

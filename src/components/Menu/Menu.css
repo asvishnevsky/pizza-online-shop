@@ -1,0 +1,272 @@
+.menu {
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    --space-x-reverse: 0;
+}
+
+.menu__currency {
+    background-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(221, 107, 32);
+    border-radius: .5rem;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-repeat: stretch;
+    border-image-source: none;
+    border-left-color: rgb(221, 107, 32);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(221, 107, 32);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(221, 107, 32);
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-sizing: border-box;
+    color: rgb(221, 107, 32);
+    font-size: 14px;
+    font-weight: 700;
+    /*line-height: normal;*/
+    /*padding: 8px 12px 12px 8px;*/
+    text-align: center
+}
+
+.menu__login {
+    background-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(221, 107, 32);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(221, 107, 32);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgb(221, 107, 32);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgb(221, 107, 32);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-sizing: border-box;
+    color: rgb(221, 107, 32);
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 8px;
+    margin-right: 0px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    text-align: center;
+    text-decoration: rgb(221, 107, 32);
+    text-decoration-color: rgb(221, 107, 32);
+    text-decoration-line: none;
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+    /*line-height: normal;*/
+}
+
+.menu__cart {
+    position: relative;
+    --border-opacity: 1;
+    --bg-opacity: 1;
+    margin-right: calc(0.5rem*var(--space-x-reverse));
+    margin-left: calc(0.5rem*(1 - var(--space-x-reverse)));
+    position: relative;
+}
+
+.menu__cart_button {
+    align-items: center;
+    background-color: rgb(221, 107, 32);
+    background-image: none;
+    border-bottom-color: rgb(226, 232, 240);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(226, 232, 240);
+    border-left-style: solid;
+    border-left-width: 0px;
+    border-right-color: rgb(226, 232, 240);
+    border-right-style: solid;
+    border-right-width: 0px;
+    border-top-color: rgb(226, 232, 240);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-top-style: solid;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 14px;
+    justify-content: center;
+    /*line-height: 25px;*/
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+    padding-bottom: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    width: 91.9167px
+}
+
+.menu__cart_span__rigth {
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgba(255, 255, 255, 0.5);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgba(255, 255, 255, 0.5);
+    border-right-style: solid;
+    border-right-width: 0px;
+    border-top-color: rgba(255, 255, 255, 0.5);
+    border-top-style: solid;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    text-transform: none
+}
+
+.menu__history {
+    display: none;
+}
+
+.menu__empty-cart {
+    display: none;
+}
+
+.menu__login_svg {
+    display: none;
+}
+
+.menu__cart_button_span {
+    display: none;
+}
+
+.menu__cart_span {
+    border-bottom-color: rgb(226, 232, 240);
+    border-bottom-style: solid;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(226, 232, 240);
+    border-left-style: solid;
+    border-left-width: 0px;
+    border-right-color: rgb(226, 232, 240);
+    border-right-style: solid;
+    border-right-width: 0px;
+    border-top-color: rgb(226, 232, 240);
+    border-top-style: solid;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 14px;
+    /*line-height: 21px;*/
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    text-transform: none;
+    height: 20px;
+}
+
+.cart {
+    position: absolute;
+    margin-top: 55px;
+    margin-right: 0px;
+    width: 218px;
+    min-height: 100px;
+    border-radius: 10px;
+    border: 1px solid rgb(221, 107, 32);
+    background-color: snow; 
+}
+.cart__hidden {
+    display: none;
+}
+.cart__order {
+    list-style-type: none;
+    text-align: left;
+    margin-left: 0px;
+    padding: 5px;
+    color: black;
+}
+.cart__purchase_button:hover {
+    cursor: pointer;
+    padding-top: 1px;
+    background-color: rgb(240, 130, 45);
+}
+.cart__purchase_button {
+    width: 100%;
+    line-height: 2rem;
+    border-radius: 0 0 5px 5px;
+    color: snow;
+    background-color: rgb(221, 107, 32);
+}
+.cart__order__item {
+    /*background-color: green;*/
+    width: 100%;
+    display: inline-block;
+}
+.cart__order__item__name {
+    /*display: block;*/
+    float: left;
+}
+.cart__order__item__count {
+    /*display: block;*/
+    float: right;
+}
+.cart__order__item__count__button {
+    display: inline-block;
+    background-color: snow;
+    width: 20px;
+    /*height: 10px;*/
+    text-align: center;
+    border: 1px solid orange;
+    border-radius: 5px;
+}
+.cart__order__item__count__number {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+}

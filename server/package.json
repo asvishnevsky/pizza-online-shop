@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.1.7-alpha.3",
+    "express-requests-logger": "^3.0.0",
+    "utf8": "^3.0.0"
+  }
+}
